@@ -4,10 +4,8 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
 
-Projeto completo de portfólio de Cientista de Dados/Analista de Dados.
-
 ## 🎯 Objetivo
-Análise exploratória de **+3 milhões de viagens** de táxi amarelo em NYC (janeiro/2023) usando:
+Análise exploratória de **+3 milhões de viagens** de táxi amarelo em NYC usando:
 - **DuckDB** para consultas SQL eficientes diretamente em arquivo Parquet remoto (sem download)
 - **Python + Pandas** para resumo estatístico e visualizações
 - Consulta via HTTP: zero armazenamento local
@@ -24,6 +22,8 @@ Análise exploratória de **+3 milhões de viagens** de táxi amarelo em NYC (ja
 - Rotas mais lucrativas concentram-se em Manhattan (aeroportos e centros)
 
 ![Gráfico de viagens por hora](imagens/hourly_trips.png)
+![Pagamento de viagens por hora](imagens/fare_per_hour.png)
+![Viagens por hora](imagens/trips_per_hour.png)
 
 ## 🛠️ Como Executar
 1. Clone o repositório
@@ -37,4 +37,3 @@ Análise exploratória de **+3 milhões de viagens** de táxi amarelo em NYC (ja
 - [Padrões por hora](resultados/hourly_patterns.csv)
 - [Top rotas](resultados/top_routes.csv)
 
-Projeto 100% reproduzível · Ideal para entrevistas de Data Analytics/Science
